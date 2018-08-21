@@ -1,0 +1,923 @@
+{
+ "byQName": {
+  "SGBotic": {
+   "kind": 5,
+   "namespace": "",
+   "name": "SGBotic",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "weight": 100,
+    "color": "#f47820",
+    "icon": "",
+    "paramHelp": {},
+    "jsDoc": "Makecode block for thermal printer\n\nSGBotic blocks",
+    "block": "SGBotic"
+   },
+   "pkg": null,
+   "retType": "",
+   "parameters": null,
+   "qName": "SGBotic"
+  },
+  "SGBotic.bgColor": {
+   "kind": 6,
+   "namespace": "SGBotic",
+   "name": "bgColor",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "bgColor"
+   },
+   "pkg": null,
+   "retType": "SGBotic.bgColor",
+   "parameters": null,
+   "qName": "SGBotic.bgColor"
+  },
+  "SGBotic.bgColor.White": {
+   "kind": 7,
+   "namespace": "SGBotic.bgColor",
+   "name": "White",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "White",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "White"
+   },
+   "pkg": null,
+   "retType": "SGBotic.bgColor",
+   "parameters": null,
+   "qName": "SGBotic.bgColor.White"
+  },
+  "SGBotic.bgColor.Black": {
+   "kind": 7,
+   "namespace": "SGBotic.bgColor",
+   "name": "Black",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "Black",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "Black"
+   },
+   "pkg": null,
+   "retType": "SGBotic.bgColor",
+   "parameters": null,
+   "qName": "SGBotic.bgColor.Black"
+  },
+  "SGBotic.textBold": {
+   "kind": 6,
+   "namespace": "SGBotic",
+   "name": "textBold",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "textBold"
+   },
+   "pkg": null,
+   "retType": "SGBotic.textBold",
+   "parameters": null,
+   "qName": "SGBotic.textBold"
+  },
+  "SGBotic.textBold.Off": {
+   "kind": 7,
+   "namespace": "SGBotic.textBold",
+   "name": "Off",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "Off",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "Off"
+   },
+   "pkg": null,
+   "retType": "SGBotic.textBold",
+   "parameters": null,
+   "qName": "SGBotic.textBold.Off"
+  },
+  "SGBotic.textBold.On": {
+   "kind": 7,
+   "namespace": "SGBotic.textBold",
+   "name": "On",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "On",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "On"
+   },
+   "pkg": null,
+   "retType": "SGBotic.textBold",
+   "parameters": null,
+   "qName": "SGBotic.textBold.On"
+  },
+  "SGBotic.textAlignment": {
+   "kind": 6,
+   "namespace": "SGBotic",
+   "name": "textAlignment",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "textAlignment"
+   },
+   "pkg": null,
+   "retType": "SGBotic.textAlignment",
+   "parameters": null,
+   "qName": "SGBotic.textAlignment"
+  },
+  "SGBotic.textAlignment.Left": {
+   "kind": 7,
+   "namespace": "SGBotic.textAlignment",
+   "name": "Left",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "Left",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "Left"
+   },
+   "pkg": null,
+   "retType": "SGBotic.textAlignment",
+   "parameters": null,
+   "qName": "SGBotic.textAlignment.Left"
+  },
+  "SGBotic.textAlignment.Centre": {
+   "kind": 7,
+   "namespace": "SGBotic.textAlignment",
+   "name": "Centre",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "Centre",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "Centre"
+   },
+   "pkg": null,
+   "retType": "SGBotic.textAlignment",
+   "parameters": null,
+   "qName": "SGBotic.textAlignment.Centre"
+  },
+  "SGBotic.textAlignment.Right": {
+   "kind": 7,
+   "namespace": "SGBotic.textAlignment",
+   "name": "Right",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "Right",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "Right"
+   },
+   "pkg": null,
+   "retType": "SGBotic.textAlignment",
+   "parameters": null,
+   "qName": "SGBotic.textAlignment.Right"
+  },
+  "SGBotic.textunderline": {
+   "kind": 6,
+   "namespace": "SGBotic",
+   "name": "textunderline",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "textunderline"
+   },
+   "pkg": null,
+   "retType": "SGBotic.textunderline",
+   "parameters": null,
+   "qName": "SGBotic.textunderline"
+  },
+  "SGBotic.textunderline.Off": {
+   "kind": 7,
+   "namespace": "SGBotic.textunderline",
+   "name": "Off",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "Off",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "Off"
+   },
+   "pkg": null,
+   "retType": "SGBotic.textunderline",
+   "parameters": null,
+   "qName": "SGBotic.textunderline.Off"
+  },
+  "SGBotic.textunderline.Light": {
+   "kind": 7,
+   "namespace": "SGBotic.textunderline",
+   "name": "Light",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "Light",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "Light"
+   },
+   "pkg": null,
+   "retType": "SGBotic.textunderline",
+   "parameters": null,
+   "qName": "SGBotic.textunderline.Light"
+  },
+  "SGBotic.textunderline.Dark": {
+   "kind": 7,
+   "namespace": "SGBotic.textunderline",
+   "name": "Dark",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "Dark",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "Dark"
+   },
+   "pkg": null,
+   "retType": "SGBotic.textunderline",
+   "parameters": null,
+   "qName": "SGBotic.textunderline.Dark"
+  },
+  "SGBotic.thermal_printer_setSerial": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "thermal_printer_setSerial",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_setSerial",
+    "block": "Connect printer RX to %pinRX|TX to %pinTX",
+    "weight": 100,
+    "blockExternalInputs": "true",
+    "blockGap": "3",
+    "paramHelp": {
+     "Configure": "pin for serial communication"
+    },
+    "jsDoc": "Initialize Thermal Printer",
+    "_name": "thermal_printer_setSerial"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "pinRX",
+     "description": "",
+     "type": "SerialPin",
+     "options": {},
+     "isEnum": true
+    },
+    {
+     "name": "pinTX",
+     "description": "",
+     "type": "SerialPin",
+     "options": {},
+     "isEnum": true
+    }
+   ],
+   "snippet": "thermal_printer_setSerial(null, null)",
+   "qName": "SGBotic.thermal_printer_setSerial"
+  },
+  "SGBotic.printString": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "printString",
+   "attributes": {
+    "paramDefl": {
+     "s": "Hello"
+    },
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_printString",
+    "block": "Print string %s",
+    "weight": 98,
+    "blockGap": "3",
+    "paramHelp": {
+     "s": "is string to be printed, eg: \"Hello\""
+    },
+    "jsDoc": "Print string and line feed",
+    "_name": "printString"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "s",
+     "description": "is string to be printed, eg: \"Hello\"",
+     "type": "string",
+     "initializer": "Hello",
+     "default": "Hello",
+     "options": {},
+     "isEnum": false
+    }
+   ],
+   "snippet": "printString(\"Hello\")",
+   "qName": "SGBotic.printString"
+  },
+  "SGBotic.printNum": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "printNum",
+   "attributes": {
+    "paramDefl": {
+     "num": "123"
+    },
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_printNum",
+    "block": "Print number %num",
+    "weight": 97,
+    "blockGap": "3",
+    "paramHelp": {
+     "num": "is number to be printed, eg: 123"
+    },
+    "jsDoc": "Print number and line feed",
+    "_name": "printNum"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "num",
+     "description": "is number to be printed, eg: 123",
+     "type": "number",
+     "initializer": "123",
+     "default": "123",
+     "options": {},
+     "isEnum": false
+    }
+   ],
+   "snippet": "printNum(123)",
+   "qName": "SGBotic.printNum"
+  },
+  "SGBotic.printStringBuffer": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "printStringBuffer",
+   "attributes": {
+    "paramDefl": {
+     "s": "\"Hello World\""
+    },
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_printStringBuffer",
+    "block": "Store string in memory %s",
+    "weight": 96,
+    "blockGap": "3",
+    "paramHelp": {
+     "s": "is string to be stored, eg: \"Hello World\"",
+     "text": "will be stored in printer buffer. - you need to send a newLine command to empty buffer and print"
+    },
+    "jsDoc": "Store text in printer memory. Require \"New line\" command to print",
+    "_name": "printStringBuffer"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "s",
+     "description": "is string to be stored, eg: \"Hello World\"",
+     "type": "string",
+     "initializer": "\"Hello World\"",
+     "default": "\"Hello World\"",
+     "options": {},
+     "isEnum": false
+    }
+   ],
+   "snippet": "printStringBuffer(\"Hello World\")",
+   "qName": "SGBotic.printStringBuffer"
+  },
+  "SGBotic.printNumBuffer": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "printNumBuffer",
+   "attributes": {
+    "paramDefl": {
+     "num": "123"
+    },
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_printNumBuffer",
+    "block": "Store number in memory %s",
+    "weight": 95,
+    "blockGap": "3",
+    "paramHelp": {
+     "num": "is number to be stored, eg: 123",
+     "number": "will be stored in printer buffer. - you need to send a newLine command to empty buffer and print"
+    },
+    "jsDoc": "Store number in printer memory. Require \"New line\" command to print",
+    "_name": "printNumBuffer"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "num",
+     "description": "is number to be stored, eg: 123",
+     "type": "number",
+     "initializer": "123",
+     "default": "123",
+     "options": {},
+     "isEnum": false
+    }
+   ],
+   "snippet": "printNumBuffer(123)",
+   "qName": "SGBotic.printNumBuffer"
+  },
+  "SGBotic.LineFeed": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "LineFeed",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_newLine",
+    "block": "New line",
+    "weight": 90,
+    "blockGap": "20",
+    "paramHelp": {
+     "Sending": "line feed to the printer"
+    },
+    "jsDoc": "New Line",
+    "_name": "LineFeed"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [],
+   "snippet": "LineFeed()",
+   "qName": "SGBotic.LineFeed"
+  },
+  "SGBotic.resetPrinter": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "resetPrinter",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_resetPrint",
+    "block": "Reset printer",
+    "weight": 20,
+    "blockGap": "3",
+    "paramHelp": {},
+    "jsDoc": "Reset printer",
+    "_name": "resetPrinter"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [],
+   "snippet": "resetPrinter()",
+   "qName": "SGBotic.resetPrinter"
+  },
+  "SGBotic.setDensityBreakTime": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "setDensityBreakTime",
+   "attributes": {
+    "paramDefl": {
+     "Density": "10",
+     "BreakTime": "10"
+    },
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_setDensityBreakTime",
+    "block": "Set print density %Density| break-time %BreakTime",
+    "weight": 58,
+    "blockExternalInputs": "true",
+    "blockGap": "20",
+    "paramMin": {
+     "Density": "1",
+     "BreakTime": "1"
+    },
+    "paramMax": {
+     "Density": "15",
+     "BreakTime": "15"
+    },
+    "paramHelp": {
+     "Density": "is to set printing density, eg: 10",
+     "BreakTime": "is to set print break time, eg: 10"
+    },
+    "jsDoc": "Set printing density (1  to 15) and break time (1 to 15)",
+    "_name": "setDensityBreakTime"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "Density",
+     "description": "is to set printing density, eg: 10",
+     "type": "number",
+     "initializer": "10",
+     "default": "10",
+     "options": {
+      "min": {
+       "value": "1"
+      },
+      "max": {
+       "value": "15"
+      }
+     },
+     "isEnum": false
+    },
+    {
+     "name": "BreakTime",
+     "description": "is to set print break time, eg: 10",
+     "type": "number",
+     "initializer": "10",
+     "default": "10",
+     "options": {
+      "min": {
+       "value": "1"
+      },
+      "max": {
+       "value": "15"
+      }
+     },
+     "isEnum": false
+    }
+   ],
+   "snippet": "setDensityBreakTime(10, 10)",
+   "qName": "SGBotic.setDensityBreakTime"
+  },
+  "SGBotic.setHeating": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "setHeating",
+   "attributes": {
+    "paramDefl": {
+     "heatTime": "80",
+     "heatInterval": "2"
+    },
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_setHeating",
+    "block": "Set heating duration %heatTime| interval %heatInterval",
+    "weight": 59,
+    "blockExternalInputs": "true",
+    "blockGap": "3",
+    "paramMin": {
+     "heatTime": "4",
+     "heatInterval": "2"
+    },
+    "paramMax": {
+     "heatTime": "255",
+     "heatInterval": "255"
+    },
+    "paramHelp": {
+     "heatTime": "is to set heating duration, eg: 80",
+     "heatInterval": "is to set heating interval, eg: 2"
+    },
+    "jsDoc": "Set heating duration (4  to 255, default 80) and interval (2 to 255, default 2)",
+    "_name": "setHeating"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "heatTime",
+     "description": "is to set heating duration, eg: 80",
+     "type": "number",
+     "initializer": "80",
+     "default": "80",
+     "options": {
+      "min": {
+       "value": "4"
+      },
+      "max": {
+       "value": "255"
+      }
+     },
+     "isEnum": false
+    },
+    {
+     "name": "heatInterval",
+     "description": "is to set heating interval, eg: 2",
+     "type": "number",
+     "initializer": "2",
+     "default": "2",
+     "options": {
+      "min": {
+       "value": "2"
+      },
+      "max": {
+       "value": "255"
+      }
+     },
+     "isEnum": false
+    }
+   ],
+   "snippet": "setHeating(80, 2)",
+   "qName": "SGBotic.setHeating"
+  },
+  "SGBotic.setLineSpacing": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "setLineSpacing",
+   "attributes": {
+    "paramDefl": {
+     "lineSpace": "30"
+    },
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_lineSpace",
+    "block": "Set line spacing  %lineSpace",
+    "weight": 83,
+    "blockGap": "3",
+    "paramMin": {
+     "lineSpace": "0"
+    },
+    "paramMax": {
+     "lineSpace": "255"
+    },
+    "paramHelp": {
+     "lineSpace": "is to set the line spacing, eg: 30"
+    },
+    "jsDoc": "Set the line spacing (default is 30)",
+    "_name": "setLineSpacing"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "lineSpace",
+     "description": "is to set the line spacing, eg: 30",
+     "type": "number",
+     "initializer": "30",
+     "default": "30",
+     "options": {
+      "min": {
+       "value": "0"
+      },
+      "max": {
+       "value": "255"
+      }
+     },
+     "isEnum": false
+    }
+   ],
+   "snippet": "setLineSpacing(30)",
+   "qName": "SGBotic.setLineSpacing"
+  },
+  "SGBotic.setTextAlign": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "setTextAlign",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_textAlign",
+    "block": "Text align to %textAlign",
+    "weight": 84,
+    "blockGap": "3",
+    "paramHelp": {},
+    "jsDoc": "Align text to left, centre or right",
+    "_name": "setTextAlign"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "textAlign",
+     "description": "",
+     "type": "SGBotic.textAlignment",
+     "options": {},
+     "isEnum": true
+    }
+   ],
+   "snippet": "setTextAlign(null)",
+   "qName": "SGBotic.setTextAlign"
+  },
+  "SGBotic.setUnderLine": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "setUnderLine",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_underLine",
+    "block": "Underline %underlineText",
+    "weight": 87,
+    "blockGap": "3",
+    "paramHelp": {},
+    "jsDoc": "Print underline.",
+    "_name": "setUnderLine"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "underlineText",
+     "description": "",
+     "type": "SGBotic.textunderline",
+     "options": {},
+     "isEnum": true
+    }
+   ],
+   "snippet": "setUnderLine(null)",
+   "qName": "SGBotic.setUnderLine"
+  },
+  "SGBotic.backGroundColor": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "backGroundColor",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_backGroundColor",
+    "block": "Set text background to  %backgroundColor",
+    "weight": 82,
+    "blockGap": "20",
+    "paramHelp": {},
+    "jsDoc": "Set text background color to white/black",
+    "_name": "backGroundColor"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "backgroundColor",
+     "description": "",
+     "type": "SGBotic.bgColor",
+     "options": {},
+     "isEnum": true
+    }
+   ],
+   "snippet": "backGroundColor(null)",
+   "qName": "SGBotic.backGroundColor"
+  },
+  "SGBotic.setTextBold": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "setTextBold",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_setTextBold",
+    "block": "Bold %boldText",
+    "weight": 89,
+    "blockGap": "3",
+    "paramHelp": {},
+    "jsDoc": "Set bold On/Off",
+    "_name": "setTextBold"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "boldText",
+     "description": "",
+     "type": "SGBotic.textBold",
+     "options": {},
+     "isEnum": true
+    }
+   ],
+   "snippet": "setTextBold(null)",
+   "qName": "SGBotic.setTextBold"
+  },
+  "SGBotic.setCharacterSize": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "setCharacterSize",
+   "attributes": {
+    "paramDefl": {
+     "Width": "0",
+     "Height": "0"
+    },
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_setCharacterSize",
+    "block": "Set character size width %Width| height %Height",
+    "weight": 85,
+    "blockExternalInputs": "true",
+    "blockGap": "3",
+    "paramMin": {
+     "Width": "0",
+     "Height": "0"
+    },
+    "paramMax": {
+     "Width": "4",
+     "Height": "4"
+    },
+    "paramHelp": {
+     "Width": "is to set character width, eg: 0",
+     "Height": "is to set character height, eg: 0"
+    },
+    "jsDoc": "Set Character size. Default value: 0,0",
+    "_name": "setCharacterSize"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "Width",
+     "description": "is to set character width, eg: 0",
+     "type": "number",
+     "initializer": "0",
+     "default": "0",
+     "options": {
+      "min": {
+       "value": "0"
+      },
+      "max": {
+       "value": "4"
+      }
+     },
+     "isEnum": false
+    },
+    {
+     "name": "Height",
+     "description": "is to set character height, eg: 0",
+     "type": "number",
+     "initializer": "0",
+     "default": "0",
+     "options": {
+      "min": {
+       "value": "0"
+      },
+      "max": {
+       "value": "4"
+      }
+     },
+     "isEnum": false
+    }
+   ],
+   "snippet": "setCharacterSize(0, 0)",
+   "qName": "SGBotic.setCharacterSize"
+  },
+  "SGBotic.printTestPage": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "printTestPage",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "Thermal-Printer",
+    "blockId": "ThermalPrinter_printTestPage",
+    "block": "Print factory test page",
+    "weight": 10,
+    "blockGap": "8",
+    "paramHelp": {
+     "Sending": "line feed to the printer"
+    },
+    "jsDoc": "Print facotry test page",
+    "_name": "printTestPage"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [],
+   "snippet": "printTestPage()",
+   "qName": "SGBotic.printTestPage"
+  }
+ }
+}
