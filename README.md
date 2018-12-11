@@ -1,10 +1,6 @@
-# SGBotic makecode blocks for microbit
+# Timanau makecode blocks for microbit
 
-Makecode blocks for  thermal printer
-
-## License
-
-MIT
+Makecode blocks for thermal printer
 
 ## Supported targets
 
