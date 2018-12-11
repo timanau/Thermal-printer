@@ -2,7 +2,7 @@
 * Makecode block for thermal printer
 */
 
-namespace SGBotic{
+namespace Timanau{
     
    
     let heatTime: number
@@ -63,7 +63,7 @@ namespace SGBotic{
         serial.redirect(
             pinRX,
             pinTX,
-            BaudRate.BaudRate19200
+            BaudRate.BaudRate9600
         )
         basic.pause(500)
         
