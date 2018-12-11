@@ -1,8 +1,7 @@
 {
-    "name": "SGBotic-thermal-printer",
-    "version": "0.1",
+    "name": "Timanau-thermal-printer",
+    "version": "1",
     "description": "Makdecode block to simplify using thermal printer",
-    "license": "MIT",
     "dependencies": {
         "core": "*"
     },
